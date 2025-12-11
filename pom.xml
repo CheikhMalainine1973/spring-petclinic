@@ -4,7 +4,10 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>{BUILD_VERSION}</version>
+    <version>${revision}</version>
+    <properties>
+        <revision>0.0.0</revision>
+    </properties>
   </parent>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
