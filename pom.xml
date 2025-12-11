@@ -4,15 +4,16 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>${revision}</version>
-    <properties>
-        <revision>0.0.0</revision>
-    </properties>
+    <version>4.0.0</version>
   </parent>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>${revision}</version>
   <name>petclinic</name>
+  
+   <properties>
+    <revision>0.0.0</revision> <!-- default, Jenkins overrides -->
+  </properties>
 
   <properties>
     <!-- Generic properties -->
